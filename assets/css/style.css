@@ -1,0 +1,78 @@
+@media(min-width:768px) and (max-width:2000px) {
+
+    .gradient-custom {
+        background: linear-gradient(to bottom right, rgb(206, 125, 26), rgb(159, 217, 226))
+    }
+
+    .mask-custom {
+        color: black;
+    }
+
+    .card-header1 {
+        background-color: aquamarine;
+    }
+
+    .card-header2 {
+        background-color: rgb(210, 209, 207);
+    }
+
+    .card-body2 {
+        padding: 15px;
+    }
+
+    .dropdown_lista {
+        display: none;
+    }
+
+    .font2-weight-bold {
+        display: none;
+    }
+
+    .dropdown_adjuntar {
+        margin-top: 10px;
+    }
+}
+
+
+
+/* Pantallas pequeñas */
+
+@media(max-width:767px) {
+
+    .gradient-custom {
+        background: linear-gradient(to bottom right, rgb(206, 125, 26), rgb(159, 217, 226))
+    }
+
+    .mask-custom {
+        color: black;
+    }
+
+    .card-header1 {
+        background-color: aquamarine;
+    }
+
+    .card-header2 {
+        background-color: rgb(210, 209, 207);
+    }
+
+    .card-body {
+        display: none;
+    }
+
+    .card-body2 {
+        padding: 15px;
+    }
+
+    .font1-weight-bold {
+        display: none;
+    }
+
+    .dropdown_lista {
+        margin: 10px 10px 10px 13px;
+    }
+
+    .dropdown_adjuntar {
+        margin-top: 10px;
+    }
+
+}
